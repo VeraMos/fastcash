@@ -254,10 +254,11 @@ a:hover {
   display: block;
   margin-bottom: 20px;
   color: inherit;
+  text-decoration: underline;
 }
 
 .about__link:hover {
-  color: #21CA50;
+  color: #21CA50; 
 }
 
 .about__ttl {
@@ -316,6 +317,11 @@ a:hover {
 
 .text-block__link {
   color: #21CA50;
+  text-decoration: underline;
+}
+
+.text-block {
+  padding: 55px 0 50px;
 }
 
 .main-footer {
@@ -449,8 +455,12 @@ a:hover {
   border: 1px solid #CCCCCC;
   box-sizing: border-box;
   border-radius: 5px;
-  padding: 10px 26px;
+  padding: 10px 17px;
   margin-bottom: 12px;
+}
+
+.form-inner-input:focus {
+  outline: none;
 }
 
 .form-inner-input::placeholder {
@@ -482,6 +492,10 @@ a:hover {
 
 .btn-left {
   margin-left: 0;
+}
+
+.form-inner {
+  margin-bottom: 95px;
 }
 
 .form-inner__text:before {
@@ -532,6 +546,11 @@ a:hover {
 
 .form-inner__text a {
   color: #21CA50;
+  text-decoration: underline;
+}
+
+.form-inner__text a:hover {
+  text-decoration: none;
 }
 
 .form-inner__ser {
