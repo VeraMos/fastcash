@@ -147,7 +147,7 @@ a:hover {
 
 .fast-time {
   padding: 70px 0;
-  background: #E5E5E5;
+  background: #EAEAEA;
 }
 
 .fast-time__inn {
@@ -239,7 +239,7 @@ a:hover {
 
 .about {
   padding: 60px 0 66px;
-  background: #E5E5E5;
+  background: #EAEAEA;
 }
 
 .about__inn {
@@ -294,6 +294,10 @@ a:hover {
   margin: 0 auto 60px;
 }
 
+.banner-subttl span {
+  color: #21CA50;
+}
+
 .banner-bottom__link {
   max-width: 570px;
   height: 100px;
@@ -315,7 +319,7 @@ a:hover {
 }
 
 .main-footer {
-  padding: 90px 0 50px;
+  padding: 60px 0 50px;
   background: #F9F9F9;
 }
 
@@ -380,7 +384,7 @@ a:hover {
 
 .banner-inner {
   padding: 40px 0;
-  background: url('../img/banner-inner-bg.png') #E5E5E5;
+  background: url('../img/banner-inner-bg.png') #EAEAEA;
   background-repeat: no-repeat;
   background-size: contain;
   background-position: top;
