@@ -11,6 +11,7 @@
 	<link rel="stylesheet" href="css/media.css">
 	<link href="libs/dist/jquery.formstyler.css" rel="stylesheet" />
 	<link href="libs/dist/jquery.formstyler.theme.css" rel="stylesheet" />
+	<link rel="stylesheet" href="//ajax.googleapis.com/ajax/libs/jqueryui/1.11.0/themes/smoothness/jquery-ui.css">
 </head>
 <body>
 <header class="main-header">
@@ -33,7 +34,25 @@
 		<div class="banner-ttl">Мгновенный займ не выходя из дома</div>
 			<p class="banner-subttl">Доступен при плохой кредитной истории, без справок и проверок, выдается <span>за 15 минут!</span></p>
 			<div class="banner-form__wrp">
-			<form>
+			<form class="banner-form__index">
+				<div class="d-flex justify-content-between">
+					<p class="banner-form__black">Мне нужно:</p>
+					<p class="banner-form__green"><span id="currentVal">30 000</span> ₽</p>					
+				</div>
+				<div class="banner-form__range-wpr d-flex justify-content-between">
+					<span>1000</span><span>80000</span>
+				</div>
+				<div id="range"></div>
+				<div class="d-flex justify-content-between">
+					<p class="banner-form__black">Срок займа:</p>
+					<p class="banner-form__green"><span id="currentVal-new">7</span> дней</p>
+				</div>
+				<div class="banner-form__range-wpr d-flex justify-content-between">
+					<span>5 дней</span><span>30 дней</span>
+				</div>
+				<div id="range-new"></div>
+				<p class="banner-form__black">Вероятность одобрения:</p>
+
 				<button class="banner-btn" type="submit">Оформить заявку</button>
 			</form>
 			<p>Мы гарантируем автоматическое одобрение заявки и высокую степень безопасности данных</p>
@@ -219,5 +238,7 @@
 <link rel="stylesheet" href="libs/slick/slick-theme.css">
 <script src="libs/slick/slick.min.js"></script>
 <script src="libs/dist/jquery.formstyler.min.js"></script>
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<script src="//ajax.googleapis.com/ajax/libs/jqueryui/1.11.0/jquery-ui.min.js"></script>
 </body>
 </html>
