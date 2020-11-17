@@ -1,62 +1,10 @@
 @media screen and (max-width: 1700px) {
 
-	.about-index__link-wpr::after {
-	  right: -65px;
-	  background-size: contain;
-	}
-
-	.prev-left {
-		left: 100px;
-	}
-
-	.prev-right {
-		right: 100px;
-	}
-
-	.main-slider .slick-dots {
-		margin-left: 140px!important;
-	}
+	
 }
 
 @media screen and (max-width: 1400px) {
-	.about-index__text {
-		max-width: 900px;
-	}
-
-	.about-index__button {
-		width: 430px;
-	}
-
-	.about-index__link {
-		margin-bottom: 25px;
-	}
-
-	.about-index__link-wpr::after {
-	  right: -200px;
-	  background-size: contain;
-	}
-
-	.subscribe-block {
-		margin-left: 50px;
-	}
-
-	.subscribe::after {
-		width: 15%;
-	}
-
-	.prev-left {
-		left: 60px;
-	}
-
-	.prev-right {
-		right: 60px;
-	}
-
-	.header-submenu__link.main {
-	  font-size: 18px;
-  	  line-height: 22px;
-}
-
+	
 
 }
 
@@ -65,7 +13,43 @@
 }
 
 @media screen and (max-width: 1024px) {
-	
+	.fast-time__clock {
+		position: relative;
+	}
+
+	.fast-time__img {
+		display: none;
+	}
+
+	.fast-time__inn {
+		flex-wrap: wrap;
+	}
+
+	.fast-time__clock span {
+		display: block;
+	}
+
+	.fast-time__clock {
+		width: 100%;
+		padding: 0;
+		border-radius: 0 0px 10px 10px;
+	}
+
+	.fast-time__text {
+		width: 100%;
+	}
+
+	.fast-time__text p {
+		margin: 0 auto;
+		text-align: center;
+	}
+
+	.banner-img img {
+		display: block;
+    	width: 100%;
+	    margin-left: auto;
+	}
+
 }
 
 @media screen and (max-width: 992px) {
@@ -74,15 +58,204 @@
 }
 
 @media screen and (max-width: 768px) {
-	
+	.section__ttl, .banner-ttl {
+		font-size: 30px;
+		line-height: 40px;
+	}
+
+	.text-block p {
+		font-size: 14px;
+		line-height: 20px;
+	}
+
+	.text-block__link {
+		font-size: 14px;
+		line-height: 20px;
+	}
+
+	.part-list {
+    	justify-content: center;
+	}
+
+	.part-item {
+		margin: 0px 15px 30px;
+	}
+
+	.header-menu {
+		padding: 0 0 20px;
+	}
+
+	.fast-time__text {
+		padding: 50px 40px;
+	}
+
+	.footer-ps {
+		margin-top: 30px;
+	}
+
+	.footer-ps img {
+		margin: 0 10px 0 0;
+	}
+
+	.pagin-block {
+		margin-bottom: 50px;
+	}
+
+	.footer-copy {
+		margin: 0;
+	}
+
+	.form-inner {
+    	margin-bottom: 50px;
+	}
+
+	.btn {		
+    	margin: 25px 0 30px;
+	}
+
+	.advantagts__item {
+		margin: 15px 20px;
+	}
+
+	.advantages__list {
+    	justify-content: center;
+	}
+
+	.advantages {
+    	padding: 62px 0 10px;
+	}
+
+	.steps__list {
+    	justify-content: center;
+	}
+
+	.steps__item {
+		margin: 50px 20px 50px;
+	}
+
+	.steps__list {
+		padding-top: 0;
+	}
+
+
 }
 
 @media screen and (max-width: 640px) {
-	
+	.form-inner__form-inn {
+		width: 100%;
+	}
 }
 
 @media screen and (max-width: 576px) {
- 	
+ 	.header-menu__item {
+ 		width: 100%;
+ 	}
+
+ 	.header-menu__link {
+ 		padding: 10px 0;
+ 		display: block;
+ 	}
+
+ 	.form-inner .section__ttl {
+ 		margin-bottom: 25px;
+ 	}
+
+ 	.bredrumbs {
+    	padding: 25px 0 25px;
+	}
+
+	.footer-copy span:before {
+		display: none;
+	}
+
+	.text-block {
+		padding: 25px 0;
+	}
+
+	.part-list {
+		margin-bottom: 25px;
+	}
+
+	.form-inner {
+    	margin-bottom: 25px;
+	}
+
+	.pagin-block__btn {
+		margin: 0 10px;
+	}
+
+	.fast-time__text {
+    	font-size: 33px;
+    	line-height: 37px;
+    	padding: 25px 20px;
+	}
+
+	.main-footer {
+		padding: 30px 0;
+	}
+
+	.form-inner__label {
+    	width: 100%;
+	}
+
+	.form-inner__text {
+	    padding-left: 13px;
+    	font-size: 14px;
+    	line-height: 18px;
+    }
+
+    .bread-item {
+    	font-size: 15px;
+    }
+
+    .bread-link {
+    	font-size: 15px;
+    }
+
+    .footer-menu__item {
+    	width: 100%;
+    }
+
+    .about {
+    	padding: 30px 0 30px;
+	}
+
+	.steps {
+    	padding: 30px 0;
+	}
+
+	.banner-bottom__link {
+		font-size: 22px;
+    	line-height: 40px;
+	    padding: 30px 30px;
+	}
+
+	.banner-bottom__subttl {
+		font-size: 26px;
+    	line-height: 34px;
+	}
+
+	.banner-bottom__ttl {
+		font-size: 40px;
+    	line-height: 47px;
+	}
+
+	.banner-bottom {
+    	background: #FF942A;
+    	padding: 30px 0 30px;
+	}
+
+	.steps__item span {
+		font-size: 322px;
+    	line-height: 335px;
+    	top: -100px;
+    	left: 40px;
+	}
+
+	.banner {
+		padding: 40px 0 0px;
+	}
+	
 }
 
 @media screen and (max-width: 425px) {
@@ -91,7 +264,10 @@
 
 
 @media screen and (max-width: 375px) {
-	
+	.fast-time__clock span {
+    	font-size: 80px;
+    	line-height: 95px;
+	}
 
 }
 
