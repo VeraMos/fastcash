@@ -24,4 +24,15 @@ $("#currentVal-new").html(ui.value);
 });
 });
 
-  
+$(document).ready(function () {
+
+$("#range-ver").slider({
+range: "min",
+max: 100,
+min: 1,
+value: 1,
+slide: function(e, ui) {
+$("#currentVal-ver").html(ui.value);
+}
+});
+});
