@@ -256,6 +256,10 @@
 	.banner {
 		padding: 40px 0 0px;
 	}
+
+	.banner-form__wrp {
+		padding: 0 5px;
+	}
 	
 }
 
@@ -273,5 +277,7 @@
 }
 
 @media screen and (max-width: 320px) {
-	
+	.banner-form__black {
+	    font-size: 16px;
+	}
 }
