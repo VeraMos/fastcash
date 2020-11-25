@@ -58,6 +58,18 @@
     	max-width: 100%;
 	}
 
+	.steps__item {
+		margin: 60px 20px;
+	}
+
+	.steps__list {
+    	justify-content: center;
+	}
+
+	.main-footer__inn {
+    	justify-content: center;
+	}
+
 }
 
 @media screen and (max-width: 992px) {
@@ -109,10 +121,6 @@
 		margin-bottom: 50px;
 	}
 
-	.footer-copy {
-		margin: 0;
-	}
-
 	.form-inner {
     	margin-bottom: 50px;
 	}
@@ -137,14 +145,13 @@
     	justify-content: center;
 	}
 
-	.steps__item {
-		margin: 50px 20px 50px;
-	}
-
 	.steps__list {
 		padding-top: 0;
 	}
 
+	.main-footer__inn {
+    	justify-content: center;
+	}
 
 }
 
@@ -271,6 +278,14 @@
 
 	.banner-ttl {
 		margin-bottom: 10px;
+	}
+
+	.footer-menu {
+		text-align: center;
+	}
+
+	.footer-copy {
+		text-align: center;
 	}
 	
 }

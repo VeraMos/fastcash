@@ -392,9 +392,9 @@ a:hover {
 
 .banner-inner {
   padding: 40px 0;
-  background: url('../img/banner-inner-bg.png') #EAEAEA;
+  background: url('../img/banner-inner1.png') #EAEAEA;
   background-repeat: no-repeat;
-  background-size: contain;
+  background-size: cover;
   background-position: top;
 }
 
@@ -414,10 +414,10 @@ a:hover {
 .bread-item:before {
   position: absolute;
   content: "";
-  top: 8px;
-  left: 0;
-  width: 8px;
-  height: 10px;
+  top: 10px;
+  left: -1px;
+  width: 6px;
+  height: 9px;
   background: url('../img/br-str.svg') no-repeat;
 }
 
