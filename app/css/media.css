@@ -44,11 +44,18 @@
 		text-align: center;
 	}
 
-	.banner-img img {
-		display: block;
-    	width: 100%;
-	    margin-left: auto;
-	    opacity: 0.8;
+	.banner-img  {
+		display: none;
+	}
+
+	.banner {
+  		background: url('../img/banner-bg-mob.png') #EAEAEA;
+  		padding: 50px 50px 40px;
+  		background-size: contain;
+  	}
+
+  	.banner-form__wrp {
+    	max-width: 100%;
 	}
 
 }
@@ -254,7 +261,8 @@
 	}
 
 	.banner {
-		padding: 40px 0 0px;
+		padding: 40px 20px 30px;
+		height: auto;
 	}
 
 	.banner-form__wrp {
@@ -286,6 +294,6 @@
 	}
 
 	.banner {
-		height: 820px;
+		padding: 40px 5px 30px;
 	}
 }
