@@ -1061,3 +1061,110 @@ a:hover {
 .steps__item:focus {
   outline: none;
 }
+
+.servises-about__block a {
+  background-color: #21CA50;
+  border-radius: 5px;
+  color: #fff;
+  font-size: 15px;
+  line-height: 17px;
+  padding: 18px 0;
+  margin-top: 26px;
+  display: block;
+  width: 242px;
+  height: 50px;
+  text-align: center;
+}
+
+.servises-about__text {
+  position: relative;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 28px;
+  color: #3E3E3E;
+  margin-top: 15px;
+}
+
+.servises-about__text:before {
+  position: absolute;
+  content: "";
+  top: 0px;
+  background: url('../img/quotes.svg') no-repeat;
+  width: 57px;
+  height: 47px;
+  background-size: contain;
+  left: -70px;
+  transform: rotate(180deg);
+}
+
+.servises-about__form {
+  max-width: 400px;
+}
+
+.servises-about__label {
+  font-size: 16px;
+  width: 100%;
+}
+
+.servises-about__form .btn {
+  margin: 38px 0 0;
+  width: 242px;
+}
+
+.servises-about__form .btn:focus {
+  outline: none;
+}
+
+.servises-about__form-link {
+  font-size: 16px;
+  line-height: 28px;
+  text-decoration-line: underline;
+  color: #21CA50;
+}
+
+.servises-about__form-link:hover {
+  color: #21CA50;
+  text-decoration: none;
+}
+
+.jq-file {
+    width: 100%;
+    border-radius: 0;
+    box-shadow: none;
+    margin-top: 30px;
+}
+
+.jq-file__name {
+  height: 50px;
+  font-family: 'GothamPro';
+  padding: 10px 80px 0 10px;
+}
+
+.jq-file__browse {
+    top: 1px;
+    right: 1px;
+    padding: 10px;
+    border: none;
+    border-radius: 0 5px 5px 0;
+    background: #F4F4F4;
+    box-shadow: none;
+    font: 15px/40px;
+    color: #3E3E3E;
+    text-shadow: none;
+    height: 48px;
+    font-family: 'GothamPro';
+    width: 150px;   
+}
+
+.jq-file:after {
+  content: "";
+  position: absolute;
+  background: url('../img/skr.svg') #21CA50;
+  background-repeat: no-repeat; 
+  background-position: center;
+  width: 50px;
+  height: 50px;
+  border-radius: 5px;
+  top: 0;
+  right: 148px;
+}

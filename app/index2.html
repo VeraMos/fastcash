@@ -56,29 +56,29 @@
 			<div class="form-inner__form d-flex flex-wrap">
 				<div class="d-flex form-inner__label">
 					<label class="form-inner__ser"><span>Серия*</span>
-						<input class="form-inner-input" onkeyup="this.value = this.value.replace(/[^\d]/g,'');" type="text" name="" placeholder="">
+						<input class="form-inner-input" onkeyup="this.value = this.value.replace(/[^\d]/g,'');" type="text" name="" placeholder="" required="">
 					</label>
 					<label class="w-100"><span>Номер*</span>
-						<input class="form-inner-input" onkeyup="this.value = this.value.replace(/[^\d]/g,'');" type="text" name="" placeholder="">
+						<input class="form-inner-input" onkeyup="this.value = this.value.replace(/[^\d]/g,'');" type="text" name="" placeholder="" required="">
 					</label>
 				</div>
 				<label class="form-inner__label"><span>Код подразделения* </span>
-					<input class="form-inner-input" onkeyup="this.value = this.value.replace(/[^\d]/g,'');" type="text" name="" placeholder="">
+					<input class="form-inner-input" onkeyup="this.value = this.value.replace(/[^\d]/g,'');" type="text" name="" placeholder="" required="">
 				</label>
 				<label class="form-inner__label"><span>Кем выдан*</span>
-					<input class="form-inner-input" type="text" name="" placeholder="">
+					<input class="form-inner-input" type="text" name="" placeholder="" required="">
 				</label>
 				<label class="form-inner__label"><span>Дата выдачи*</span>
-					<input class="form-inner-input" type="date" name="" placeholder="">
+					<input class="form-inner-input" type="date" name="" placeholder="" required="">
 				</label>
 				<label class="form-inner__label"><span>Регион*</span>
-					<input class="form-inner-input" type="text" name="" placeholder="">
+					<input class="form-inner-input" type="text" name="" placeholder="" required="">
 				</label>
 				<label class="form-inner__label"><span>Город*</span>
-					<input class="form-inner-input" type="text" name="" placeholder="">
+					<input class="form-inner-input" type="text" name="" placeholder="" required="">
 				</label>
 			</div>
-			<button class="btn" type="button">Отправить</button>
+			<button class="btn" type="submit">Отправить</button>
 			<label class="form-inner__policy w-100">
 		    	<input type="checkbox" checked="" required="" class="radio">
 		    	<div class="form-inner__text">Cогласие <a href="#consent" data-fancybox="">на обработку персональных данных</a></div>
@@ -160,5 +160,6 @@
 <link rel="stylesheet" href="libs/slick/slick-theme.css">
 <script src="libs/slick/slick.min.js"></script>
 <script src="libs/dist/jquery.formstyler.min.js"></script>
+<script src="js/jquery.maskedinput.min.js"></script>	
 </body>
 </html>

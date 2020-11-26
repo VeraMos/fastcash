@@ -81,6 +81,10 @@
     	justify-content: center;
 	}
 
+	.servises-about__block a {
+		margin-bottom: 30px;
+	}
+
 }
 
 @media screen and (max-width: 992px) {
@@ -152,6 +156,30 @@
 
 	.steps__item {
 		margin: 0 48px;
+	}
+
+	.serv-about__inn:before {
+		left: -33px;
+		transform: rotate(180deg) scale(0.5);
+	}
+
+	.serv-about__inn:after {
+		right: -33px;
+		bottom: 0;
+		top: auto;
+		transform: scale(0.5);
+	}
+
+	.serv-about__inn {
+		width: 90%;
+	}
+
+	.servises-about {
+    padding: 50px 0;
+	}
+
+	.about__ttl {
+		margin-bottom: 20px!important;
 	}
 
 }

@@ -62,18 +62,18 @@
 					<div class="d-flex justify-content-between flex-wrap">
 						<label class="form-inner__label"><span>Срок действия</span>
 							<div class="d-flex">
-								<input class="form-inner-input"  onkeyup="this.value = this.value.replace(/[^\d]/g,'');"  type="text" name="" placeholder="" style="width: 105px;">
+								<input class="form-inner-input"  onkeyup="this.value = this.value.replace(/[^\d]/g,'');"  type="text" name="" placeholder="" style="width: 105px;" required="">
 								<span class="form-inner__slasch">/</span>
-								<input class="form-inner-input"  onkeyup="this.value = this.value.replace(/[^\d]/g,'');"  type="text" name="" placeholder="" style="width: 105px;">
+								<input class="form-inner-input"  onkeyup="this.value = this.value.replace(/[^\d]/g,'');"  type="text" name="" placeholder="" style="width: 105px;" required="">
 							</div>
 						</label>
 						<label class="form-inner__label" style="width: 105px;"><span>Код CVV2</span>
-							<input class="form-inner-input"  onkeyup="this.value = this.value.replace(/[^\d]/g,'');"  type="text" name="" placeholder="">
+							<input class="form-inner-input"  onkeyup="this.value = this.value.replace(/[^\d]/g,'');"  type="text" name="" placeholder="" required="">
 						</label>
 					</div>
 				</div>
 			</div>
-			<button class="btn btn-left" type="button">Отправить</button>
+			<button class="btn btn-left" type="submit">Отправить</button>
 			<label class="form-inner__policy w-100 mx-0">
 		    	<input type="checkbox" checked="" required="" class="radio">
 		    	<div class="form-inner__text">Cогласие <a href="#consent" data-fancybox="">на обработку персональных данных</a></div>
@@ -154,5 +154,6 @@
 <link rel="stylesheet" href="libs/slick/slick-theme.css">
 <script src="libs/slick/slick.min.js"></script>
 <script src="libs/dist/jquery.formstyler.min.js"></script>
+<script src="js/jquery.maskedinput.min.js"></script>	
 </body>
 </html>

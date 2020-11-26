@@ -7,10 +7,10 @@
 	<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
 	<title>БысроКэш</title>
 	<link rel="stylesheet" href="css/libs.min.css">
-	<link rel="stylesheet" href="css/main.css">
-	<link rel="stylesheet" href="css/media.css">
 	<link href="libs/dist/jquery.formstyler.css" rel="stylesheet" />
 	<link href="libs/dist/jquery.formstyler.theme.css" rel="stylesheet" />
+	<link rel="stylesheet" href="css/main.css">
+	<link rel="stylesheet" href="css/media.css">	
 	<link rel="stylesheet" href="//ajax.googleapis.com/ajax/libs/jqueryui/1.11.0/themes/smoothness/jquery-ui.css">
 </head>
 <body>
@@ -122,9 +122,27 @@
 				<p>Согласно ч.2 ст.9 ФЗ №152-ФЗ от 27.07.2006г "О персональных данных" "Согласие на обработку персональных данных" может быть отозвано субъектом персональных данных.</p>
 				<p>В случае отзыва субъектом персональных данных согласия на обработку персональных данных оператор вправе продолжить обработку персональных данных без согласия субъекта персональных данных при наличии оснований, указанных в пунктах 2 - 11 части 1 статьи 6, части 2 статьи 10 и части 2 статьи 11 настоящего Федерального закона".</p>
 				<p>Однако, субъект персональных данных должен знать, что у оператора персональных данных имеется право на продолжение обработки персональных данных даже при наличии отказа субъекта персональных данных от обработки персональных данных. Такое право закреплено в пунктах 2 - 11 части 1 статьи 6, части 2 статьи 10 и части 2 статьи 11 настоящего Федерального закона №152-ФЗ от 27.07.2006г. "О персональных данных". В частности такое право у оператора персональных данных имеется, если обработка персональных данных необходима ему для исполнения какого-либо договора.7</p>
-				</p>
-				<div class="servises-about__text">Если у вас процессе пользования нашим сервисом возникли вопросы, наши специалисты готовы вам помочь.</div>
+				<div class="servises-about__text">
+				Если у вас процессе пользования нашим сервисом возникли вопросы, наши специалисты готовы вам помочь.</div>
 				<a href="#">Контакты</a>
+			</div>
+			<div class="servises-about__form">
+				<p class="about__ttl mb-5">Отозвать данные</p>
+				<p>Для запрета на использование ваших персональных данных заполните форму и завление, приложив сканы заявления.</p>
+				<form class="mt-5">
+					<label class="servises-about__label"><span>Ваше имя*</span>
+						<input class="form-inner-input" type="text" name="" placeholder="" required="">
+					</label>
+					<label class="servises-about__label"><span>Мобильный телефон*</span>
+						<input class="form-inner-input mask_phone" type="tel" name="" placeholder="" required="">
+					</label>
+					<label class="servises-about__label"><span>Ваш email*</span>
+						<input class="form-inner-input" type="email" name="" placeholder="" required="">
+					</label>
+					<a class="servises-about__form-link" href="#">Пример завяления</a>
+					<input class="servises-about__form-file" type="file" name="">
+					<button class="btn" type="submit">Отправить</button>
+				</form>
 			</div>
 		</div>
 	</div>
@@ -200,11 +218,12 @@
 <script src="js/libs.min.js"></script>
 <script src="js/scripts.js"></script>
 
-<script src="libs/dist/jquery.formstyler.min.js"></script>
+
 <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
 <script src="//ajax.googleapis.com/ajax/libs/jqueryui/1.11.0/jquery-ui.min.js"></script>
 <link rel="stylesheet" href="libs/slick/slick.css">
 <link rel="stylesheet" href="libs/slick/slick-theme.css">
 <script src="libs/slick/slick.min.js"></script>
-</body>
+<script src="js/jquery.maskedinput.min.js"></script>
+<script src="libs/dist/jquery.formstyler.min.js"></script>	
 </html>

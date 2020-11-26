@@ -61,6 +61,17 @@ $(document).ready(function () {
         ]
     });
 
+
+     $('.servises-about__form-file').styler({
+         fileBrowse: 'Прикрепить файл',
+        filePlaceholder: 'Название файла.jpg',
+        singleSelectzIndex: '999',
+        onSelectOpened: function () {
+           // к открытому селекту добавляется красная обводка
+            $(this).css('box-shadow: 0px 15px 31px rgba(0, 0, 0, 0.1);');
+        }
+    });
+
 $("#range").slider({
 range: "min",
 max: 80000,
