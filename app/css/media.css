@@ -79,6 +79,14 @@
 		left: -50px;
 	}
 
+	.part-item {
+    	margin: 0px 15px 30px;
+	}
+
+	.part-list {
+    	justify-content: center;
+	}
+
 }
 
 @media screen and (max-width: 992px) {
@@ -100,14 +108,6 @@
 	.text-block__link {
 		font-size: 14px;
 		line-height: 20px;
-	}
-
-	.part-list {
-    	justify-content: center;
-	}
-
-	.part-item {
-		margin: 0px 15px 30px;
 	}
 
 	.header-menu {
@@ -305,6 +305,30 @@
 	.steps__item {
     	margin: 40px 20px;
 	}
+
+	#consent {
+		font-size: 14px;
+    	line-height: 24px;
+	}
+
+	.consent-ttl {
+    	font-size: 26px;
+    	line-height: 28px;
+	}
+
+	.consent-to {
+	    font-size: 16px;
+    	line-height: 25px;
+	}
+
+	.consent-subttl {
+    	font-size: 20px;
+    	line-height: 24px;
+    }
+
+    .consent-link__block {
+    	max-width: 100%;
+    }
 	
 }
 

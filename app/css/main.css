@@ -277,7 +277,7 @@ a:hover {
 .about__ttl {
   font-weight: bold;
   font-size: 30px;
-  line-height: 50px;
+  line-height: 35px;
   text-transform: uppercase;
   color: #3E3E3E;
 }
@@ -965,4 +965,97 @@ a:hover {
 
 .prev-right:focus, .prev-left:focus {
   outline: none;
+}
+
+.serv-about {
+  padding: 60px 0 0;
+}
+
+.serv-about__inn {
+  max-width: 754px;
+  display: block;
+  margin: 0 auto 50px;
+  position: relative;
+  text-align: center;
+}
+
+.serv-about__inn:before, .serv-about__inn:after {
+  position: absolute;
+  content: "";
+  top: 10px;
+  background: url('../img/quotes.svg') no-repeat;
+  width: 57px;
+  height: 47px;
+  background-size: contain;
+}
+
+.serv-about__inn:before {
+  left: -70px;
+  transform: rotate(180deg);
+}
+
+.serv-about__inn:after {
+  right: -70px;
+}
+
+.servises-about {
+  padding: 100px 0;
+}
+
+.servises-about__block {
+  max-width: 670px;
+}
+
+#consent {
+  max-width: 970px;
+  margin-top: 200px;
+}
+
+.consent-ttl {
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 35px;
+  text-align: center;
+  text-transform: uppercase;
+  max-width: 463px;
+  display: block;
+  margin: 0 auto 40px;
+}
+
+.consent-to {
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 30px;
+  text-align: right;
+  max-width: 430px;
+  display: block;
+  margin-left: auto;
+  margin-bottom: 40px;
+}
+
+.consent-subttl {
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 35px;
+  text-align: center;
+}
+
+.consent-link__block {
+  display: block;
+  margin: 0 auto;
+  max-width: 255px;
+  color: #21CA50;
+}
+
+.consent-link__block a {
+  color: #21CA50;
+  text-decoration: underline;
+}
+
+.consent-link__block a:hover {
+  text-decoration: none;
+}
+
+.steps__item img {
+  margin: 0 auto;
 }

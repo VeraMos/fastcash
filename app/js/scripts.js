@@ -1,6 +1,6 @@
 $(document).ready(function () {
 
-	$('.advantages__list').slick({
+   	$('.advantages__list').slick({
         infinite: true,
         slidesToShow: 4,
         slidesToScroll: 1,
@@ -14,6 +14,33 @@ $(document).ready(function () {
                     slidesToScroll: 1,
                 }
             },
+            {
+                breakpoint: 769,
+                settings: {
+                    slidesToShow: 2,
+                    slidesToScroll: 1,
+                }
+            },
+            {
+                breakpoint: 576,
+                settings: {
+                    //dots: true,
+                    slidesToShow: 1,
+                    slidesToScroll: 1,
+                    centerMode: true,
+                    variableWidth: true,
+                }
+            }
+        ]
+    });
+
+    $('.steps__list').slick({
+        infinite: true,
+        slidesToShow: 4,
+        slidesToScroll: 1,
+        prevArrow: '<button class="prev-left"></button>',
+        nextArrow: '<button class="prev-right"></button>',
+        responsive: [
             {
                 breakpoint: 769,
                 settings: {
@@ -71,3 +98,6 @@ $("#currentVal-ver").html(ui.value);
 });
 });
 
+$(document).ready(function () {
+    $(".mask_phone").mask('+7 999-999-99-99');
+});
