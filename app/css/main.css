@@ -215,7 +215,7 @@ a:hover {
 }
 
 .steps {
-  padding: 67px 0 100px;
+  padding: 67px 0 40px;
 }
 
 .steps__item p {
@@ -231,12 +231,10 @@ a:hover {
   max-width: 270px;
   text-align: center;
   position: relative;
+  height: 350px!important;
+  padding: 87px 0 30px;
 }
 
-.steps__list {
-  justify-content: space-between;
-  padding-top: 50px;
-}
 
 .steps__item span {
   font-size: 400px;
@@ -245,7 +243,7 @@ a:hover {
   color: #E3E3E3;
   opacity: 0.4;
   position: absolute;
-  top: -100px;
+  top: -25px;
   left: 0;
   z-index: -1;
 }
@@ -1058,4 +1056,8 @@ a:hover {
 
 .steps__item img {
   margin: 0 auto;
+}
+
+.steps__item:focus {
+  outline: none;
 }

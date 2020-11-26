@@ -58,9 +58,6 @@
     	max-width: 100%;
 	}
 
-	.steps__item {
-		max-width: 208px;
-	}
 
 	.main-footer__inn {
     	justify-content: center;
@@ -75,9 +72,6 @@
 	    padding: 35px 0;
 	}
 
-	.steps__item span {
-		left: -50px;
-	}
 
 	.part-item {
     	margin: 0px 15px 30px;
@@ -146,25 +140,18 @@
     	padding: 62px 0 10px;
 	}
 
-	.steps__list {
-    	justify-content: center;
-	}
-
-	.steps__list {
-		padding-top: 0;
-	}
-
+	
 	.main-footer__inn {
     	justify-content: center;
 	}
 
-	.steps__item {
-		margin: 60px 20px 100px;
-		max-width: 270px;
-	}
-
+	
 	.advantagts__item {
     	margin: 0 50px;
+	}
+
+	.steps__item {
+		margin: 0 48px;
 	}
 
 }
@@ -274,13 +261,6 @@
     	padding: 30px 0 30px;
 	}
 
-	.steps__item span {
-		font-size: 322px;
-    	line-height: 335px;
-    	top: -100px;
-    	left: 40px;
-	}
-
 	.banner {
 		padding: 40px 20px 30px;
 		height: auto;
@@ -303,7 +283,7 @@
 	}
 
 	.steps__item {
-    	margin: 40px 20px;
+    	padding: 87px 40px 30px;
 	}
 
 	#consent {
