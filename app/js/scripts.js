@@ -1,5 +1,39 @@
 $(document).ready(function () {
 
+	$('.advantages__list').slick({
+        infinite: true,
+        slidesToShow: 4,
+        slidesToScroll: 1,
+        prevArrow: '<button class="prev-left"></button>',
+        nextArrow: '<button class="prev-right"></button>',
+        responsive: [
+            {
+                breakpoint: 1025,
+                settings: {
+                    slidesToShow: 3,
+                    slidesToScroll: 1,
+                }
+            },
+            {
+                breakpoint: 769,
+                settings: {
+                    slidesToShow: 2,
+                    slidesToScroll: 1,
+                }
+            },
+            {
+                breakpoint: 576,
+                settings: {
+                    //dots: true,
+                    slidesToShow: 1,
+                    slidesToScroll: 1,
+                    centerMode: true,
+                    variableWidth: true,
+                }
+            }
+        ]
+    });
+
 $("#range").slider({
 range: "min",
 max: 80000,
@@ -36,3 +70,4 @@ $("#currentVal-ver").html(ui.value);
 }
 });
 });
+

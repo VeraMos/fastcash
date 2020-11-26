@@ -128,8 +128,19 @@ a:hover {
 }
 
 .advantagts__item {
-  max-width: 270px;
+  max-width: 265px;
   text-align: center;
+  margin: 0 10px;
+  padding: 30px 0;
+}
+
+.advantagts__item:focus {
+  outline: none;
+}
+
+.advantagts__item img{
+  display: block;
+  margin: 0 auto;
 }
 
 .advantages__item-ttl {
@@ -915,4 +926,43 @@ a:hover {
     left: 15px;
     color: #444444;
     font-size: 10px;
+}
+
+.prev-left {
+  position: absolute;
+  z-index: 4;
+  width: 8px;
+  height: 17px;
+  border: none;
+  background-color: transparent;
+  background-image: url("../img/br-str.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  top: 50%;
+  left: 10px;
+  transform: rotate(180deg);
+  outline: none;
+  padding: 15px;
+  border-radius: 10px;
+}
+
+.prev-right {
+  position: absolute;
+  z-index: 4;
+  width: 8px;
+  height: 17px;
+  border: none;
+  background-color: transparent;
+  background-image: url("../img/br-str.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  top: 50%;
+  right: 10px;
+  outline: none;
+  border-radius: 10px;
+  padding: 15px;
+}
+
+.prev-right:focus, .prev-left:focus {
+  outline: none;
 }
