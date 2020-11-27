@@ -1257,6 +1257,7 @@ a:hover {
   border-radius: 5px;
   padding: 17px 10px 25px 15px;
   margin-top: 8px;
+  position: absolute;
 }
 
 .part-item__info-item {
