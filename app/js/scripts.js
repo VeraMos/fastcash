@@ -65,7 +65,12 @@ $(document).ready(function () {
       e.preventDefault();
       $(this).toggleClass('header__menu-toggle--active');
       $('.header-menu').toggleClass('active');
-});
+    });
+
+    $('.part-item__info').on('click', function(e) {
+        e.preventDefault();
+        $(this).parent('.part-item__block-link').toggleClass('active');
+    });
 
      $('.servises-about__form-file').styler({
          fileBrowse: 'Прикрепить файл',
