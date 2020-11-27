@@ -1168,3 +1168,74 @@ a:hover {
   top: 0;
   right: 148px;
 }
+
+.fancybox-content {
+  overflow: visible;
+}
+
+.fancybox-close-small {
+  right: -11px!important;
+  top: -35px!important;
+  background: transparent;
+  border-radius: 50px;
+  opacity: 1!important;
+}
+
+.fancybox-button svg path {
+    fill: #fff;
+}
+
+ .header__menu-toggle { 
+  z-index: 15;
+  display: none;
+  width: 45px;
+  height: 45px;
+  position: absolute;
+  outline-color: transparent;
+  top: 58px;
+  right: 3%;
+  background-color: transparent;
+  border: none;
+}
+
+.header__menu-toggle:focus {
+  outline: none;
+}
+
+.header__menu-toggle span, span::before, span::after {
+  display: none;
+  height: 3px;
+  width: 40px;
+  position: absolute;
+  left: 40%;
+  margin-left: -16px;
+  top: 0;
+  margin-top: -10px;
+  background-color: #3E3E3E;
+}
+
+.header__menu-toggle span::before {
+  transition: all 0.2s;
+  content: "";
+  margin-top: -6px;
+}
+
+.header__menu-toggle span::after {
+  transition: all 0.2s;
+  content: "";
+  margin-top: 6px;
+}
+
+.header__menu-toggle--active span {
+  background-color: transparent;
+}
+
+.header__menu-toggle--active span::before  {
+  transform: rotate(135deg);
+  margin-top: 0;
+}
+
+.header__menu-toggle--active span::after {
+  transform: rotate(-135deg);
+  margin-top: 0;
+}

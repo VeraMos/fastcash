@@ -61,6 +61,11 @@ $(document).ready(function () {
         ]
     });
 
+    $('.header__menu-toggle').on('click', function(e) {
+      e.preventDefault();
+      $(this).toggleClass('header__menu-toggle--active');
+      $('.header-menu').toggleClass('active');
+});
 
      $('.servises-about__form-file').styler({
          fileBrowse: 'Прикрепить файл',

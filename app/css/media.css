@@ -337,6 +337,27 @@
     .consent-link__block {
     	max-width: 100%;
     }
+
+    .header-menu {
+    	display: none!important;
+    }
+
+    .header-menu.active {
+    	display: flex!important;
+    }
+
+  .header__menu-toggle {
+    display: block;
+  }
+  .header__menu-toggle span {
+    display: block;
+  }
+  .header__menu-toggle--active span::before {
+    display: block;
+  }
+  .header__menu-toggle span::after {
+    display: block;
+  }
 	
 }
 
