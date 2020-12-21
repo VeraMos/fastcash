@@ -358,7 +358,23 @@
   .header__menu-toggle span::after {
     display: block;
   }
-	
+
+  .about__ttl {
+  	font-size: 26px!important;
+    line-height: 28px!important;
+  }
+
+  .servises-about__form p {
+    font-size: 14px;
+	}
+
+	.servises-about__label {
+    font-size: 14px;
+	}
+
+	.servises-about__form .form-inner-input {
+		height: 35px;
+	}
 }
 
 @media screen and (max-width: 425px) {

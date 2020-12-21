@@ -7,10 +7,11 @@
 	<link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
 	<title>БыстроКэш</title>
 	<link rel="stylesheet" href="css/libs.min.css">
-	<link rel="stylesheet" href="css/main.css">
-	<link rel="stylesheet" href="css/media.css">
 	<link href="libs/dist/jquery.formstyler.css" rel="stylesheet" />
 	<link href="libs/dist/jquery.formstyler.theme.css" rel="stylesheet" />
+	<link rel="stylesheet" href="css/main.css">
+	<link rel="stylesheet" href="css/media.css">
+	
 </head>
 <body>
 <header class="main-header">
@@ -149,6 +150,26 @@
 	</div>
 </div>
 
+<div id="delete-data" style="display: none;">
+	<div class="servises-about__form">
+		<p class="about__ttl">Отозвать данные</p>
+		<p>Для запрета на использование ваших персональных данных заполните форму и завление, приложив сканы заявления.</p>
+		<form>
+			<label class="servises-about__label"><span>Ваше имя*</span>
+				<input class="form-inner-input" type="text" name="" placeholder="" required="">
+			</label>
+			<label class="servises-about__label"><span>Мобильный телефон*</span>
+				<input class="form-inner-input mask_phone" type="tel" name="" placeholder="" required="">
+			</label>
+			<label class="servises-about__label"><span>Ваш email*</span>
+				<input class="form-inner-input" type="email" name="" placeholder="" required="">
+			</label>
+			<a class="servises-about__form-link" href="#">Пример заявления</a>
+			<input class="servises-about__form-file" type="file" name="">
+			<button class="btn" type="submit">Отправить</button>
+		</form>
+	</div>
+</div>
 
 <script src="js/libs.min.js"></script>
 <script src="js/scripts.js"></script>
@@ -158,6 +179,6 @@
 <script src="libs/slick/slick.min.js"></script>
 <script src="libs/dist/jquery.formstyler.min.js"></script>
 <script src="js/jquery.maskedinput.min.js"></script>	
-
+<script src="libs/dist/jquery.formstyler.min.js"></script>
 </body>
 </html>
