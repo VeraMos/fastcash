@@ -1,5 +1,7 @@
 @media screen and (max-width: 1700px) {
-
+	.fancybox-slide--html {
+    padding-top: 30px;
+	}
 	
 }
 
@@ -375,6 +377,10 @@
 	.servises-about__form .form-inner-input {
 		height: 35px;
 	}
+
+	.about__ttl {
+    	margin-bottom: 10px!important;
+	}
 }
 
 @media screen and (max-width: 425px) {
@@ -392,6 +398,10 @@
 	.fast-time__clock span {
     	font-size: 80px;
     	line-height: 95px;
+	}
+
+	.about__ttl {
+    	font-size: 22px!important;
 	}
 
 }
