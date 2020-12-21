@@ -274,8 +274,8 @@ a:hover {
 
 .about__ttl {
   font-weight: bold;
-  font-size: 30px;
-  line-height: 35px;
+  font-size: 30px!important;
+  line-height: 35px!important;
   text-transform: uppercase;
   color: #3E3E3E;
 }
@@ -1005,7 +1005,7 @@ a:hover {
 }
 
 .servises-about__block {
-  max-width: 670px;
+  max-width: 100%;
 }
 
 #consent {
@@ -1111,7 +1111,7 @@ a:hover {
 }
 
 .servises-about__form .btn {
-  margin: 38px 0 0;
+  margin: 15px 0 0;
   width: 242px;
 }
 
@@ -1131,11 +1131,16 @@ a:hover {
   text-decoration: none;
 }
 
+.servises-about__form p {
+  font-size: 16px;
+  line-height: 22px;
+}
+
 .jq-file {
     width: 100%;
     border-radius: 0;
     box-shadow: none;
-    margin-top: 30px;
+    margin-top: 10px;
 }
 
 .jq-file__name {
@@ -1175,6 +1180,7 @@ a:hover {
 
 .fancybox-content {
   overflow: visible;
+  padding: 30px;
 }
 
 .fancybox-close-small {
