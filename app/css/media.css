@@ -378,7 +378,13 @@
 }
 
 @media screen and (max-width: 425px) {
-	
+	.jq-file:after {
+		right: 0;
+	}
+
+	.jq-file__browse {
+		display: none;
+	}
 }
 
 
